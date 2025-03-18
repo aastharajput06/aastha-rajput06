@@ -4,30 +4,35 @@ languages:
   - item: HTML
   - item: CSS/Sass
   - item: Python
+  - item: C
+  - item: C++
+  - item: Java
   - item: SQL
   - item: R
 
 frameworks:
-  - item: Ember & Glimmer
   - item: React
-  - item: Jekyll
+  - item: Tailwind CSS
+  - item: Bootstrap
   - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Gatsby
+  - item: Material-UI
+  - item: Ant Design
 
 tools:
   - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
+  - item: Gulp
   - item: Chrome DevTools
   - item: Postman
   - item: MongoDB
+  - item: Firebase
+  - item: Microsoft Excel
 
 design:
   - item: Sketch
   - item: InDesign
   - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+  - item: Figma 
+  - item: Canva
+ 

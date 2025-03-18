@@ -9,8 +9,8 @@
   "homepage": "https://aastharajput06.github.io",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp serve --watch",
     "build": "gulp build",
+    "start": "gulp serve",
     "deploy": "gh-pages -d dist"
   },
   "author": "Aastha Rajput",
@@ -29,5 +29,3 @@
     "sass": "^1.77.8"
   }
 }
-
-
