@@ -1,0 +1,40 @@
+- name: Anime Character Detection
+  url: https://github.com/aastharajput06/anime-characters-detection
+  code: https://github.com/aastharajput06/anime-characters-detection
+  description: Aims to detects character in an anime ep
+  used:
+    - thing: Gatsby
+    - thing: Sublime Text
+    - thing: Atom
+    - thing: VS Code
+    - thing: iTerm2
+    - thing: Hyper
+
+- name: Image Classification Under Zoom Attack
+  url: https://github.com/aastharajput06/ImageClassificationUnderZoomAttack_ComputerVision
+  code: hhttps://github.com/aastharajput06/ImageClassificationUnderZoomAttack_ComputerVision
+  description: This project aims to understand classification accuracy as a function of image changes. For the image corruptions we used "Zoom in to the center of the image more and more". In this we understand how classification accuracy changes as you corrupt the images
+  # used:
+  #   - thing: JavaScript
+  #   - thing: React
+  #   - thing: React Router
+  #   - thing: Axios
+  #   - thing: YouTube API
+
+- name: React Resume
+  url: https://aastharajput06.github.io/react-profile/
+  code: https://aastharajput06.github.io/react-profile/
+  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+  used:
+    - thing: JavaScript
+    - thing: React
+    - thing: CSS
+
+
+  url: https://us.mullenlowe.com/work/humankinda/
+  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+    - thing: jQuery

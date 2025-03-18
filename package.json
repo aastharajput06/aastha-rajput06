@@ -1,0 +1,33 @@
+{
+  "name": "aastha-rajput.com",
+  "version": "0.0.1",
+  "description": "Front-end developer passionate about crafting user-friendly and visually appealing web experiences",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aastharajput06/aastha-rajput06.github.io"
+  },
+  "homepage": "https://aastharajput06.github.io",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Aastha Rajput",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gh-pages": "^6.1.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "3.0.2",
+    "sass": "^1.77.8"
+  }
+}
+
+
