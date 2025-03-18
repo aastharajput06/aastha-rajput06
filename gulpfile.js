@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
 
-// Sass task
+// Sass taskk
 gulp.task('sass', function () {
   return gulp.src('src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
