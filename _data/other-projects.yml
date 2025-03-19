@@ -21,14 +21,14 @@
   #   - thing: Axios
   #   - thing: YouTube API
 
-- name: React Resume
-  url: https://aastharajput06.github.io/react-profile/
-  code: https://aastharajput06.github.io/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
+# - name: React Resume
+#   url: https://aastharajput06.github.io/react-profile/
+#   code: https://aastharajput06.github.io/react-profile/
+#   description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+#   used:
+#     - thing: JavaScript
+#     - thing: React
+#     - thing: CSS
 
 
   url: https://us.mullenlowe.com/work/humankinda/
