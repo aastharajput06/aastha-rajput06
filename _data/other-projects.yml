@@ -1,25 +1,22 @@
 - name: Anime Character Detection
-  url: https://github.com/aastharajput06/anime-characters-detection
-  code: https://github.com/aastharajput06/anime-characters-detection
-  description: Aims to detects character in an anime ep
+  url: https://blogs.gwu.edu/aastha-rajput/2024/10/26/detecting-anime-characters-in-every-scene-an-end-to-end-computer-vision-journey/
+  code: hhttps://blogs.gwu.edu/aastha-rajput/2024/10/26/detecting-anime-characters-in-every-scene-an-end-to-end-computer-vision-journey/
+  description: Developed a computer vision pipeline with Google Cloud Vision API to detect and count anime characters across 500+ video scenes, identifying crowded scenes with 85% accuracy. Visualized results using Matplotlib, applying CV techniques to creative media analysis.
   used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
+    - thing: Python
+    - thing: Google Cloud Vision API
+    - thing: Matplotlib
     - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
 
-- name: Image Classification Under Zoom Attack
-  url: https://github.com/aastharajput06/ImageClassificationUnderZoomAttack_ComputerVision
-  code: hhttps://github.com/aastharajput06/ImageClassificationUnderZoomAttack_ComputerVision
-  description: This project aims to understand classification accuracy as a function of image changes. For the image corruptions we used "Zoom in to the center of the image more and more". In this we understand how classification accuracy changes as you corrupt the images
-  # used:
-  #   - thing: JavaScript
-  #   - thing: React
-  #   - thing: React Router
-  #   - thing: Axios
-  #   - thing: YouTube API
+- name: The Magic Behind Autostereograms
+  url: https://udayukku.blogspot.com/2024/12/the-magic-behind-autostereograms.html
+  code: https://github.com/aastharajput06/
+  description: Built a Python system to create 100+ custom autostereograms by encoding depth maps into 3D stereoscopic images, leveraging computational graphics. Explored human perception, generating optical illusions from simple patterns in under 5 seconds per image.
+  used:
+    - thing: Python
+    - thing: Numpy
+    - thing: NIP
+    - thing: VS Code
 
 # - name: React Resume
 #   url: https://aastharajput06.github.io/react-profile/
