@@ -19,7 +19,7 @@
     - thing: VS Code
 
 - name: Sassistant – AI Chatbot 
-  # url: https://aastharajput06.github.io/react-profile/
+  url: https://github.com/aastharajput06/sassistant
   code: https://github.com/aastharajput06/sassistant
   description: Engineered an AI chatbot with configurable personality modes and a dynamic chat interface initialized upon user interaction, while optimizing responsiveness and production readiness to ensure a seamless user experience across devices.
   used:
