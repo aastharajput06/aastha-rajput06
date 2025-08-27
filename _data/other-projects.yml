@@ -8,7 +8,7 @@
     - thing: Matplotlib
     - thing: VS Code
 
-- name: The Magic Behind Autostereograms
+- name: Autostereogram Generation with Depth Map Encoding 
   url: https://udayukku.blogspot.com/2024/12/the-magic-behind-autostereograms.html
   code: https://github.com/aastharajput06/
   description: Built a Python system to create 100+ custom autostereograms by encoding depth maps into 3D stereoscopic images, leveraging computational graphics. Explored human perception, generating optical illusions from simple patterns in under 5 seconds per image.
@@ -18,14 +18,14 @@
     - thing: NIP
     - thing: VS Code
 
-# - name: React Resume
-#   url: https://aastharajput06.github.io/react-profile/
-#   code: https://aastharajput06.github.io/react-profile/
-#   description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-#   used:
-#     - thing: JavaScript
-#     - thing: React
-#     - thing: CSS
+- name: Sassistant – AI Chatbot 
+  # url: https://aastharajput06.github.io/react-profile/
+  code: https://github.com/aastharajput06/sassistant
+  description: Engineered an AI chatbot with configurable personality modes and a dynamic chat interface initialized upon user interaction, while optimizing responsiveness and production readiness to ensure a seamless user experience across devices.
+  used:
+    - thing: LLM
+    - thing: ReactJS
+    - thing: TailwindCSS
 
 
 
