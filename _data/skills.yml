@@ -8,7 +8,7 @@ languages:
   - item: C++
   - item: Java
   - item: SQL
-  - item: R
+  
 
 frameworks:
   - item: React

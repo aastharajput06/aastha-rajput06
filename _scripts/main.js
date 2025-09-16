@@ -8,7 +8,7 @@ $(function() {
 
   if (night) {
     input.checked = true;
-    body.classList.add('night');
+    body.classList.add('light');
   }
 
   toggle.addEventListener('click', function() {
