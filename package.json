@@ -9,7 +9,7 @@
   "homepage": "https://aastharajput06.github.io",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build",
+    "build": "bundle exec jekyll build && gulp sass && gulp copy-jekyll",
     "start": "gulp serve",
     "deploy": "gh-pages -d dist"
   },
