@@ -1,22 +1,35 @@
-$(function() {
-  const d = new Date();
-  const hours = d.getHours();
-  const night = hours >= 19 || hours <= 7; // between 7pm and 7am
+$(function () {
+  const html = document.querySelector('html');
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
-    input.checked = true;
-    body.classList.add('night');
-  }
+  console.log("🌙 Default night mode forced + toggle direction fixed");
 
-  toggle.addEventListener('click', function() {
-    const isChecked = input.checked;
-    if (isChecked) {
+  // 🌙 Always start in night mode
+  html.classList.add('night');
+  body.classList.add('night');
+  html.classList.remove('light');
+  body.classList.remove('light');
+  input.checked = true;
+
+  // 🌗 Toggle between modes (fixed direction)
+  toggle.addEventListener('click', function () {
+    // When user toggles the switch (moon/sun)
+    if (input.checked) {
+      // If toggle is ON → light mode
+      html.classList.remove('night');
       body.classList.remove('night');
+      html.classList.add('light');
+      body.classList.add('light');
+      console.log("☀️ Switched to light mode");
     } else {
+      // If toggle is OFF → night mode
+      html.classList.add('night');
       body.classList.add('night');
+      html.classList.remove('light');
+      body.classList.remove('light');
+      console.log("🌙 Switched to night mode");
     }
   });
 

@@ -49,10 +49,11 @@ gulp.task('images', function () {
 // 🧩 JS Minification (optional)
 gulp.task('scripts', function () {
   return gulp.src('js/**/*.js')
-    .pipe(uglify())
+    // .pipe(uglify()) // disabled to support ES6
     .pipe(gulp.dest('dist/js'))
     .pipe(browserSync.stream());
 });
+
 
 // 🧩 Build everything once
 gulp.task('build', gulp.series('jekyll', 'sass', 'copy-jekyll', 'images', 'scripts'));

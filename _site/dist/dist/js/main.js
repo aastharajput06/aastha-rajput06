@@ -1,22 +1,36 @@
-$(function() {
-  const d = new Date();
-  const hours = d.getHours();
-  const night = hours >= 8 || hours <= 7; // between 7pm & 7am
+$(function () {
+  const html = document.querySelector('html');
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
-    input.checked = true;
-    body.classList.add('night');
-  }
+  console.log("🌙 Default night mode forced + toggle fixed");
 
-  toggle.addEventListener('click', function() {
-    const isChecked = input.checked;
-    if (isChecked) {
+  // 🌙 Always start in night mode
+  html.classList.add('night');
+  body.classList.add('night');
+  html.classList.remove('light');
+  body.classList.remove('light');
+  input.checked = true; // set toggle visually to 'on'
+
+  // 🌗 Toggle between night ↔ light
+  toggle.addEventListener('click', function () {
+    if (body.classList.contains('night')) {
+      // Switch to light mode
+      html.classList.remove('night');
       body.classList.remove('night');
+      html.classList.add('light');
+      body.classList.add('light');
+      input.checked = false;
+      console.log("☀️ Switched to light mode");
     } else {
+      // Switch back to night mode
+      html.classList.add('night');
       body.classList.add('night');
+      html.classList.remove('light');
+      body.classList.remove('light');
+      input.checked = true;
+      console.log("🌙 Switched to night mode");
     }
   });
 
