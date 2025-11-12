@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aastharajput06.github.io/sitemap.xml
