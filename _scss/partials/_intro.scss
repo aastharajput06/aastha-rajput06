@@ -1,6 +1,6 @@
 .intro {
   padding: 120px 100px;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,15 +17,15 @@
   }
 
   &__hello, &__tagline {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     @include desktop {
-      font-size: 2.25rem;
+      font-size: 1.2rem;
     }
     @include tablet {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     @include phablet {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
     @include small-mobile {
       font-size: 1.5rem;
